@@ -77,6 +77,40 @@ body{
     left: 24.5em;
 }
 
+.circuloiI {
+    height: 7.8em;
+    width: 7.8em;
+    background-image:linear-gradient(to bottom right, rgb(13, 13, 65), rgb(0, 0, 37));
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 100%;
+    position: absolute;
+    top: 9.2em;
+    left: 8.2em;
+}
+
+.circuloiD {
+    height: 7.8em;
+    width: 7.8em;
+    background-image:linear-gradient(to bottom right, rgb(13, 13, 65), rgb(0, 0, 37));
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 100%;
+    position: absolute;
+    top: 9.2em;
+    left: 26.5em;
+}
+.brillobI {
+    height: 4em;
+    width: 2em;
+    background-image:linear-gradient(to bottom right, rgb(255, 255, 255), transparent);
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    transform: rotate(45deg);
+    opacity: 0.04;
+    top: 9em;
+    left: 9.2em;
+}
+
 .circulopI {
     height: 8em;
     width: 8em;
@@ -108,6 +142,13 @@ body{
     left: 7em;
     transform: rotate(-25deg);
 }
+.botonSuperiorI:focus {
+    background-color: rgb(0, 0, 19);
+    position: absolute;
+    top: 7em;
+    left: 7em;
+    outline: none;
+}
 .botonSuperiorD {
     background-color: rgb(0, 0, 37);
     height: 3em;
@@ -128,6 +169,10 @@ body{
     top: 11em;
     left: 28.5em;
 }
+.botonVerde:focus {
+    background-color: rgb(0, 134, 175);
+    outline: none;
+}
 .botonVerdeLetra {
     color: rgb(0, 121, 158);
     position: absolute;
@@ -138,7 +183,18 @@ body{
     font-size: 36px;
     transform: scale(.5, 1);
 }
-
+.brillobbD {
+    height: 2.5em;
+    width: 1em;
+    background-image:linear-gradient(to bottom left, rgb(255, 255, 255), transparent);
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 40% 80% 80% 40%;
+    position: absolute;
+    transform: rotate(-45deg);
+    opacity: 0.4;
+    top: 10.8em;
+    left: 31em;
+}
 .bRojo{
     position: absolute;
     top: 15em;
@@ -369,7 +425,7 @@ body{
     border-radius: 10% 10% 10% 10%;
     position: absolute;
     top: 12em;
-    left: 19em;
+    left: 19.5em;
 }
 .bCentroCirculo{
     background-color: rgb(95, 95, 95);
@@ -378,10 +434,10 @@ body{
     border-radius: 100%;
     position: absolute;
     top: 12.1em;
-    left: 19.1em;
+    left: 19.6em;
 }
 
-.bCentroCasaFondo,.bCentroMenosFondo,.bCentroCasaFondo,.bCentroMasFondo{
+.bCentroCasaFondo,.bCentroMenosFondo,.bCentroMasFondo{
     background-color: rgb(155, 155, 155);
     height: 1.4em;
     width: 1.4em;

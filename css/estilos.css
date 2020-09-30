@@ -3,9 +3,9 @@ body{
     margin: 0;
 }
 
-.container{
-    height: 500px;
-    width: 800px;
+.fondo{
+    height: 30em;
+    width: 50em;
     background-color: rgb(219, 219, 219);
     position: absolute;
     margin: auto;
@@ -16,32 +16,319 @@ body{
 }
 
 .mangoD1{
-    background-color: rgb(56, 56, 56);
-    height: 300px;
-    width: 100px;
-    border-radius: 20px 20px 30px 30px;
+    background-color: rgb(0, 0, 29);
+    height: 20em;
+    width: 5em;
+    border-radius: 30% 30% 40% 40%;
     position: absolute;
     top:150px;
     left:500px;
-    transform: rotate(-10deg);
+    transform: rotate(-1deg);
 }
 .mangoI1{
-    background-color: rgb(56, 56, 56);
-    height: 300px;
-    width: 100px;
-    border-radius: 20px 20px 30px 30px;
+    background-color: rgb(0, 0, 29);
+    height: 20em;
+    width: 5em;
+    border-radius: 30% 30% 40% 40%;
     position: absolute;
     top:150px;
     left:100px;
-    transform: rotate(10deg);
+    transform: rotate(1deg);
 }
 
 .base1{
-    background-color: rgb(56, 56, 56);
-    height: 150px;
-    width: 430px;
+    background-color: rgb(0, 0, 29);
+    height: 8em;
+    width: 25em;
     border-radius: 0 0 0px 0px;
     position: absolute;
-    top:148px;
-    left:125px;
+    top: 9.3em;
+    left: 9em;
+}
+.baseSuperior{
+    background-color: rgb(0, 0, 29);
+    height: 10em;
+    width: 25em;
+    border-radius: 100% 100% 0px 0px;
+    position: absolute;
+    top: 5em;
+    left: 9em;
+}
+
+.circulogI {
+    height: 12em;
+    width: 12em;
+    background-color: rgb(0, 0, 37);
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 100%;
+    position: absolute;
+    top: 7.5em;
+    left: 6em;
+}
+
+.circulogD {
+    height: 12em;
+    width: 12em;
+    background-color: rgb(0, 0, 37);
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 100%;
+    position: absolute;
+    top: 7.5em;
+    left: 24.5em;
+}
+
+.circulopI {
+    height: 8em;
+    width: 8em;
+    background-color: rgb(0, 0, 37);
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 100%;
+    position: absolute;
+    top: 16em;
+    left: 11em;
+}
+.circulopD {
+    height: 8em;
+    width: 8em;
+    background-color: rgb(0, 0, 37);
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 100%;
+    position: absolute;
+    top: 16em;
+    left: 23.5em;
+}
+
+.botonSuperiorI {
+    background-color: rgb(0, 0, 37);
+    height: 3em;
+    width: 7em;
+    border-radius: 60% 30% 40% 40%;
+    position: absolute;
+    top: 6.5em;
+    left: 7em;
+    transform: rotate(-25deg);
+}
+.botonSuperiorD {
+    background-color: rgb(0, 0, 37);
+    height: 3em;
+    width: 7em;
+    border-radius: 20% 80% 40% 40%;
+    position: absolute;
+    top: 7em;
+    left: 29.5em;
+    transform: rotate(25deg);
+}
+.botonVerde {
+    background-color: rgb(0, 155, 202);
+    height: 4em;
+    width: 4em;
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 100%;
+    position: absolute;
+    top: 11em;
+    left: 28.5em;
+}
+.botonRojo {
+    background-color: rgb(202, 0, 0);
+    height: 2.5em;
+    width: 2.5em;
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 100%;
+    position: absolute;
+    top: 15em;
+    left: 26em;
+}
+.botonY {
+    background-color: rgb(190, 190, 190);
+    height: 1.6em;
+    width: 3.4em;
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 80% 80% 10px 10px;
+    position: absolute;
+    top: 9em;
+    left: 27.5em;
+    transform: rotate(-26deg);
+}
+.botonX {
+    background-color: rgb(190, 190, 190);
+    height: 1.6em;
+    width: 3.4em;
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 80% 80% 10px 10px;
+    position: absolute;
+    top: 11.5em;
+    left: 32.5em;
+    transform: rotate(80deg);
+}
+.jostikAmarilloFondo {
+    background-color: rgb(209, 160, 0);
+    height: 4em;
+    width: 4em;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    position: absolute;
+    top: 18.5em;
+    left: 25.5em;
+    transform: rotate(24deg);
+}
+.jostikAmarillo {
+    background-color: rgb(255, 196, 0);
+    height: 2.8em;
+    width: 2.8em;
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 100%;
+    position: absolute;
+    top: 19em;
+    left: 26.1em;
+    box-shadow: 2px 2px 10px  rgb(211, 127, 0);
+}
+.jostikFondo {
+    background-color: rgb(26, 26, 26);
+    height: 5em;
+    width: 5em;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    position: absolute;
+    top: 10.5em;
+    left: 9.5em;
+    transform: rotate(24deg);
+}
+
+.jostik {
+    background-color: rgb(155, 155, 155);
+    height: 4em;
+    width: 4em;
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 100%;
+    position: absolute;
+    top: 11em;
+    left: 10em;
+}
+.flechas{
+    position: absolute;
+    top: 14.5em;
+    left: 14em;
+}
+.flechaFondoAr,.flechaFondoAb,.flechaFondoD,
+.flechaFondoI {
+    background-color: rgb(155, 155, 155);
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 10% 10% 0 0;
+    
+}
+.flechaFondoAr{
+    transform: rotate(0deg);
+    position: absolute;
+    top: 3.5em;
+    left: 0em;
+}
+.flechaFondoAb{
+    transform: rotate(0deg);
+    position: absolute;
+    top: 6.5em;
+    left: 0em;
+    transform: rotate(180deg);
+}
+.flechaFondoD{
+    transform: rotate(0deg);
+    position: absolute;
+    top: 5em;
+    left: 1.5em;
+    transform: rotate(90deg);
+    
+}
+.flechaFondoI{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 5em;
+    left: -1.5em;
+}
+.flechaFondoC{
+    background-color: rgb(155, 155, 155);
+    height: 1.5em;
+    width: 1.5em;
+    position: absolute;
+    top: 5em;
+    left: 0em;
+}
+.flechaAr,.flechaAb,.flechaD,.flechaI{
+    background-color: rgb(105, 105, 105);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 0.5em;
+    width: 0.8em;
+}
+
+.flechaAr{
+    position: absolute;
+    top: 3.8em;
+    left: 0.4em;
+}
+.flechaAb{
+    position: absolute;
+    top: 7.2em;
+    left: 0.4em;
+    transform: rotate(180deg);
+}
+
+.flechaD{
+    position: absolute;
+    top: 5.5em;
+    left: 2.2em;
+    transform: rotate(90deg);
+}
+.flechaI{
+    position: absolute;
+    top: 5.5em;
+    left: -1.5em;
+    transform: rotate(-90deg);
+}
+.bCentroCirculoFondo{
+    background-color: rgb(155, 155, 155);
+    height: 1.3em;
+    width: 1.3em;
+    border-radius: 10% 10% 10% 10%;
+    position: absolute;
+    top: 12em;
+    left: 19em;
+}
+.bCentroCirculo{
+    background-color: rgb(95, 95, 95);
+    height: 1em;
+    width: 1em;
+    border-radius: 100%;
+    position: absolute;
+    top: 12.1em;
+    left: 19.1em;
+}
+
+.bCentroCasaFondo,.bCentroMenosFondo,.bCentroCasaFondo,.bCentroMasFondo{
+    background-color: rgb(155, 155, 155);
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 100%;
+}
+
+.bCentroCasaFondo{
+    position: absolute;
+    top: 12em;
+    left: 22em;
+}
+
+.bCentroMenosFondo{
+    position: absolute;
+    top: 10em;
+    left: 18em;
+}
+.bCentroMenos{
+    position: absolute;
+    top: 3.55em;
+    left: 7.3em;
+    color: rgb(95, 95, 95);
+    text-align: center;
+    font-size: 40px;
+    
+}
+.bCentroMasFondo{
+    position: absolute;
+    top: 10em;
+    left: 23.4em;
 }

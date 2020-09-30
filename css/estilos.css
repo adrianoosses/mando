@@ -1,5 +1,47 @@
-.contenedor1{
-    width: 20em;
-    height: 20em;
-    background-color: purple;
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 500px;
+    width: 800px;
+    background-color: rgb(219, 219, 219);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.mangoD1{
+    background-color: rgb(56, 56, 56);
+    height: 300px;
+    width: 100px;
+    border-radius: 20px 20px 30px 30px;
+    position: absolute;
+    top:150px;
+    left:500px;
+    transform: rotate(-10deg);
+}
+.mangoI1{
+    background-color: rgb(56, 56, 56);
+    height: 300px;
+    width: 100px;
+    border-radius: 20px 20px 30px 30px;
+    position: absolute;
+    top:150px;
+    left:100px;
+    transform: rotate(10deg);
+}
+
+.base1{
+    background-color: rgb(56, 56, 56);
+    height: 150px;
+    width: 430px;
+    border-radius: 0 0 0px 0px;
+    position: absolute;
+    top:148px;
+    left:125px;
 }

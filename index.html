@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mando de Game Cube para Switch</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -18,15 +18,32 @@
         <div class="circulogD"></div>
         <div class="circulopI"></div>
         <div class="circulopD"></div>
-        <div class="botonVerde"></div>
-        <div class="botonRojo"></div>
-        <div class="botonY"></div>
-        <div class="botonX"></div>
-        <div class="jostikFondo"></div>
-        <div class="jostik"></div>
-        <div class=jostikA">
+        <div class='bVerde'>
+            <div class="botonVerde"></div>
+            <div class="botonVerdeLetra">A</div>
+        </div>
+        <div class bRojo>
+            <div class="botonRojo"></div>
+            <div class="botonRojoLetra">B</div>
+        </div>
+        <div class="bY">
+            <div class="botonY"></div>
+            <div class="botonYletra">Y</div>
+        </div>
+        <div class="bY">
+            <div class="botonX"></div>
+            <div class="botonXletra">X</div>
+        </div>
+        <div class="jostikg">
+            <div class="jostikFondo"></div>
+            <div class="jostik"></div>
+            <div class="jostikCirculo1"></div>
+            <div class="jostikCirculo2"></div>
+        </div>
+        <div class="jostikA">
             <div class="jostikAmarilloFondo"></div>
             <div class="jostikAmarillo"></div>
+            <div class="jostikAletra">C</div>
         </div>
         <div class="flechas">
             <div class="flechaFondoAr"></div>
@@ -40,14 +57,31 @@
             <div class="flechaI"></div>
         </div>  
         <div class="bCentroCirculoFondo"></div>
-        <div class="bCentroCirculo"></div>
+        <div class="bCentroCirculo" onclick="document.getElementById('luzVerde').style.opacity=1"></div>
         <div class="bCentroMenosg">
             <div class="bCentroMenosFondo"></div>
             <div class="bCentroMenos">-</div>
         </div>
-        <div class="bCentroCasaFondo"></div>
-        <div class="bCentroCasa"></div>
-        <div class="bCentroMasFondo"></div>
+        <div class="bCentroMasg">
+            <div class="bCentroMasFondo"></div>
+            <div class="bCentroMas">+</div>
+        </div>
+        <div class="bCentroCasa">
+            <div class="bCentroCasaFondo"></div>
+            <div class="bCentroCasaEst"></div>
+        </div>
+        <div class="logo">
+            <img src="images/logonintendo.png" class="logo" alt="logonintendo">
+        </div>
+        <div class="luz">
+            <div id="luz1"></div>
+            <div class="luz2"></div>
+            <div class="luz3"></div>
+            <div class="luz4"></div>
+            <div id="luzVerde"></div>
+        </div>
+        
+        </div>
     </div>
 </body>
 </html>

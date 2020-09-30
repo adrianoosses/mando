@@ -128,6 +128,22 @@ body{
     top: 11em;
     left: 28.5em;
 }
+.botonVerdeLetra {
+    color: rgb(0, 121, 158);
+    position: absolute;
+    top: 5.4em;
+    left: 13.2em;
+    text-align: center;
+    font: small-caps bold 16px/30px Arial, serif;
+    font-size: 36px;
+    transform: scale(.5, 1);
+}
+
+.bRojo{
+    position: absolute;
+    top: 15em;
+    left: 26em;
+}
 .botonRojo {
     background-color: rgb(202, 0, 0);
     height: 2.5em;
@@ -137,6 +153,16 @@ body{
     position: absolute;
     top: 15em;
     left: 26em;
+}
+.botonRojoLetra {
+    color: rgb(170, 0, 0);
+    position: absolute;
+    top: 10.15em;
+    left: 17.75em;
+    text-align: center;
+    font: small-caps bold 16px/30px Arial, serif;
+    font-size: 24px;
+    transform: scale(.5, 1);
 }
 .botonY {
     background-color: rgb(190, 190, 190);
@@ -149,6 +175,16 @@ body{
     left: 27.5em;
     transform: rotate(-26deg);
 }
+.botonYletra {
+    color: rgb(90, 90, 90);
+    position: absolute;
+    top: 7.2em;
+    left: 23em;
+    text-align: center;
+    font: small-caps bold 16px/30px Arial, serif;
+    font-size: 20px;
+    transform: scale(.5, 1);
+}
 .botonX {
     background-color: rgb(190, 190, 190);
     height: 1.6em;
@@ -159,6 +195,16 @@ body{
     top: 11.5em;
     left: 32.5em;
     transform: rotate(80deg);
+}
+.botonXletra {
+    color: rgb(90, 90, 90);
+    position: absolute;
+    top: 9em;
+    left: 27em;
+    text-align: center;
+    font: small-caps bold 16px/30px Arial, serif;
+    font-size: 20px;
+    transform: scale(.5, 1);
 }
 .jostikAmarilloFondo {
     background-color: rgb(209, 160, 0);
@@ -181,6 +227,16 @@ body{
     left: 26.1em;
     box-shadow: 2px 2px 10px  rgb(211, 127, 0);
 }
+.jostikAletra {
+    color: rgb(209, 160, 0);
+    position: absolute;
+    top: 10.4em;
+    left: 14.3em;
+    text-align: center;
+    font: small-caps bold 16px/30px Arial, serif;
+    font-size: 30px;
+    transform: scale(.6, 1);
+}
 .jostikFondo {
     background-color: rgb(26, 26, 26);
     height: 5em;
@@ -201,6 +257,31 @@ body{
     position: absolute;
     top: 11em;
     left: 10em;
+}
+.jostikCirculo1,.jostikCirculo2 {
+    background-color: rgb(155, 155, 155);
+    height: 3em;
+    width: 3em;
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 100%;
+    border-style: solid;
+    border-color: rgb(136, 136, 136);
+    background-color: transparent;
+    
+}
+.jostikCirculo1 {
+    height: 3em;
+    width: 3em;
+    position: absolute;
+    top: 11.3em;
+    left: 10.3em;
+}
+.jostikCirculo2 {
+    height: 2em;
+    width: 2em;
+    position: absolute;
+    top: 11.8em;
+    left: 10.8em;
 }
 .flechas{
     position: absolute;
@@ -307,10 +388,20 @@ body{
     border-radius: 100%;
 }
 
-.bCentroCasaFondo{
+.bCentroCasa{
     position: absolute;
     top: 12em;
     left: 22em;
+}
+
+
+.bCentroCasaEst{
+    position: absolute;
+    height: 0.8em;
+    width: 0.8em;
+    background-color: rgb(95, 95, 95);
+    top: 0.3em;
+    left: 0.3em;
 }
 
 .bCentroMenosFondo{
@@ -325,10 +416,77 @@ body{
     color: rgb(95, 95, 95);
     text-align: center;
     font-size: 40px;
-    
 }
 .bCentroMasFondo{
     position: absolute;
     top: 10em;
     left: 23.4em;
 }
+.bCentroMas{
+    position: absolute;
+    top: 6.5em;
+    left: 15.7em;
+    color: rgb(95, 95, 95);
+    font: italic small-caps bold 24px/30px Georgia, serif;
+    text-align: center;
+}
+/*
+.luz1,.luz2,.luz3,.luz4{
+    position: absolute;
+    height: 10em;
+    width: 10em;
+    color: rgb(0, 0, 0);
+}*/
+
+.logo{
+    height: 3em;
+    width: 3em;
+    position: absolute;
+    top: 3.2em;
+    left: 10em;
+    opacity: 0.5;
+}
+.luz{
+    position: absolute;
+    top: 15em;
+    left: 19.5em;
+}
+#luz1,.luz2,.luz3,.luz4{
+    height: 0.5em;
+    width: 0.5em;
+    background-color: rgb(0, 0, 0);
+      
+}
+#luz1{
+    position: absolute;
+    top: 0em;
+    left: 0em;
+}
+.luz2{
+    position: absolute;
+    top: 0em;
+    left: 1em;
+}
+.luz3{
+    position: absolute;
+    top: 0em;
+    left: 2em;
+}
+.luz4{
+    position: absolute;
+    top: 0em;
+    left: 3em;
+}
+#luzVerde{
+    position: absolute;
+    height: 0.6em;
+    width: 0.6em;
+    top: 0em;
+    left: 0em;
+    opacity: 0;
+    background-color: rgb(89, 255, 89);
+    box-shadow: 1px 1px 10px rgb(0, 255, 0);
+    border-radius: 100%;
+}
+
+

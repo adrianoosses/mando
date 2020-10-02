@@ -117,16 +117,13 @@ body{
 }
 
 
-.circulogI {
-    height: 12em;
-    width: 12em;
-    background-color: rgb(0, 0, 37);
-    /*border-radius: 25% 30% 60% 30%;*/
-    border-radius: 100%;
+.zonaDerecha{
     position: absolute;
     top: 7.5em;
-    left: 6em;
+    left: 24.5em;
 }
+
+
 
 .circulogD {
     height: 12em;
@@ -135,8 +132,8 @@ body{
     /*border-radius: 25% 30% 60% 30%;*/
     border-radius: 100%;
     position: absolute;
-    top: 7.5em;
-    left: 24.5em;
+    top: 0em;
+    left: 0em;
 }
 
 .circuloiI {
@@ -146,8 +143,8 @@ body{
     /*border-radius: 25% 30% 60% 30%;*/
     border-radius: 100%;
     position: absolute;
-    top: 9.2em;
-    left: 8.2em;
+    top: 1.7em;
+    left: 2.2em;
 }
 
 .circuloiD {
@@ -157,8 +154,49 @@ body{
     /*border-radius: 25% 30% 60% 30%;*/
     border-radius: 100%;
     position: absolute;
-    top: 9.2em;
-    left: 26.5em;
+    top: 1.7em;
+    left: 2.5em;
+}
+.botonVerde {
+    background-color: rgb(0, 155, 202);
+    height: 4em;
+    width: 4em;
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 100%;
+    position: absolute;
+    top: 3.5em;
+    left: 4.5em;
+    box-shadow: 2px 2px 10px  rgb(0, 0, 0);
+}
+.botonVerde:focus {
+    background-color: rgb(0, 134, 175);
+    outline: none;
+}
+.botonVerdeLetra {
+    color: rgb(0, 121, 158);
+    position: absolute;
+    top: 2em;
+    left: 2.5em;
+    text-align: center;
+    font: small-caps bold 16px/30px Arial, serif;
+    font-size: 36px;
+    transform: scale(.5, 1);
+}
+
+.zonaIzquierda{
+    position: absolute;
+    top: 7.5em;
+    left: 6em;
+}
+.circulogI {
+    height: 12em;
+    width: 12em;
+    background-color: rgb(0, 0, 37);
+    /*border-radius: 25% 30% 60% 30%;*/
+    border-radius: 100%;
+    position: absolute;
+    top: 0em;
+    left: 0em;
 }
 .brillobI {
     height: 4em;
@@ -166,11 +204,11 @@ body{
     background-image:linear-gradient(to bottom right, rgb(255, 255, 255), transparent);
     /*border-radius: 25% 30% 60% 30%;*/
     border-radius: 50% 50% 50% 50%;
-    position: absolute;
     transform: rotate(45deg);
     opacity: 0.04;
-    top: 9em;
-    left: 9.2em;
+    position: absolute;
+    top: 1.5em;
+    left: 3.2em;
 }
 
 .circulopI {
@@ -180,8 +218,8 @@ body{
     /*border-radius: 25% 30% 60% 30%;*/
     border-radius: 100%;
     position: absolute;
-    top: 16em;
-    left: 11.5em;
+    top: 8.5em;
+    left: 5.5em;
 }
 .circulopI2 {
     height: 5.5em;
@@ -190,8 +228,8 @@ body{
     /*border-radius: 25% 30% 60% 30%;*/
     border-radius: 100%;
     position: absolute;
-    top: 17.5em;
-    left: 12.8em;
+    top: 10em;
+    left: 7em;
 }
 .circulopD {
     height: 8em;
@@ -200,8 +238,8 @@ body{
     /*border-radius: 25% 30% 60% 30%;*/
     border-radius: 100%;
     position: absolute;
-    top: 16em;
-    left: 23em;
+    top: 9.5em;
+    left: -1.5em;
 }
 .curvaia,.curvada{
     background-color:rgb(0, 0, 37);
@@ -250,31 +288,7 @@ body{
     left: 29.5em;
     transform: rotate(25deg);
 }
-.botonVerde {
-    background-color: rgb(0, 155, 202);
-    height: 4em;
-    width: 4em;
-    /*border-radius: 25% 30% 60% 30%;*/
-    border-radius: 100%;
-    position: absolute;
-    top: 11em;
-    left: 28.5em;
-    box-shadow: 2px 2px 10px  rgb(0, 0, 0);
-}
-.botonVerde:focus {
-    background-color: rgb(0, 134, 175);
-    outline: none;
-}
-.botonVerdeLetra {
-    color: rgb(0, 121, 158);
-    position: absolute;
-    top: 5.4em;
-    left: 13.2em;
-    text-align: center;
-    font: small-caps bold 16px/30px Arial, serif;
-    font-size: 36px;
-    transform: scale(.5, 1);
-}
+
 .brillobbD {
     height: 2.5em;
     width: 1em;
@@ -284,8 +298,8 @@ body{
     position: absolute;
     transform: rotate(-45deg);
     opacity: 0.4;
-    top: 10.8em;
-    left: 31em;
+    top: 3.3em;
+    left: 6.9em;
 }
 .bRojo{
     position: absolute;
@@ -300,15 +314,15 @@ body{
     /*border-radius: 25% 30% 60% 30%;*/
     border-radius: 100%;
     position: absolute;
-    top: 15em;
-    left: 26em;
+    top: 7.5em;
+    left: 2em;
     box-shadow: 2px 2px 10px  rgb(0, 0, 0);
 }
 .botonRojoLetra {
     color: rgb(170, 0, 0);
     position: absolute;
-    top: 10.15em;
-    left: 17.75em;
+    top: 5.2em;
+    left: 1.8em;
     text-align: center;
     font: small-caps bold 16px/30px Arial, serif;
     font-size: 24px;
@@ -321,16 +335,16 @@ body{
     /*border-radius: 25% 30% 60% 30%;*/
     border-radius: 80% 80% 10px 10px;
     position: absolute;
-    top: 9em;
-    left: 27.5em;
+    top: 1.5em;
+    left: 3em;
     transform: rotate(-26deg);
     box-shadow: 2px 2px 10px  rgb(0, 0, 0);
 }
 .botonYletra {
     color: rgb(90, 90, 90);
     position: absolute;
-    top: 7.2em;
-    left: 23em;
+    top: 1.2em;
+    left: 3.5em;
     text-align: center;
     font: small-caps bold 16px/30px Arial, serif;
     font-size: 20px;
@@ -343,16 +357,16 @@ body{
     /*border-radius: 25% 30% 60% 30%;*/
     border-radius: 80% 80% 10px 10px;
     position: absolute;
-    top: 11.5em;
-    left: 32.5em;
+    top: 4.5em;
+    left: 8.5em;
     transform: rotate(80deg);
     box-shadow: 2px 2px 10px  rgb(0, 0, 0);
 }
 .botonXletra {
     color: rgb(90, 90, 90);
     position: absolute;
-    top: 9em;
-    left: 27em;
+    top: 3.5em;
+    left: 7.8em;
     text-align: center;
     font: small-caps bold 16px/30px Arial, serif;
     font-size: 20px;
@@ -362,8 +376,8 @@ body{
 
 .jostikA{
     position: absolute;
-    top: 18.5em;
-    left: 25em;
+    top: 11.5em;
+    left: 0.5em;
 }
 .jostikAmarilloFondo {
     background-color: rgb(105, 81, 0);
@@ -412,8 +426,8 @@ body{
     width: 5em;
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
     position: absolute;
-    top: 10.5em;
-    left: 9.5em;
+    top: 3em;
+    left: 3.5em;
     transform: rotate(24deg);
 }
 
@@ -424,8 +438,8 @@ body{
     /*border-radius: 25% 30% 60% 30%;*/
     border-radius: 100%;
     position: absolute;
-    top: 11em;
-    left: 10em;
+    top: 3.5em;
+    left: 4em;
 }
 .jostikCirculo1,.jostikCirculo2 {
     background-color: rgb(155, 155, 155);
@@ -442,20 +456,20 @@ body{
     height: 3em;
     width: 3em;
     position: absolute;
-    top: 11.3em;
-    left: 10.3em;
+    top: 3.8em;
+    left: 4.3em;
 }
 .jostikCirculo2 {
     height: 2em;
     width: 2em;
     position: absolute;
-    top: 11.8em;
-    left: 10.8em;
+    top: 4.3em;
+    left: 4.8em;
 }
 .flechas{
     position: absolute;
-    top: 14.5em;
-    left: 15em;
+    top: 7em;
+    left: 9em;
 }
 .flechaFondoAr,.flechaFondoAb,.flechaFondoD,
 .flechaFondoI {
@@ -531,14 +545,20 @@ body{
     left: -1.5em;
     transform: rotate(-90deg);
 }
+
+.zonaCentral{
+    position: absolute;
+    top: 10em;
+    left: 18em;
+}
 .bCentroCirculoFondo{
     background-color: rgb(155, 155, 155);
     height: 1.3em;
     width: 1.3em;
     border-radius: 10% 10% 10% 10%;
     position: absolute;
-    top: 12em;
-    left: 19.5em;
+    top: 2em;
+    left: 1.5em;
 }
 .bCentroCirculo{
     background-color: rgb(95, 95, 95);
@@ -546,8 +566,8 @@ body{
     width: 1em;
     border-radius: 100%;
     position: absolute;
-    top: 12.1em;
-    left: 19.6em;
+    top: 2.2em;
+    left: 1.6em;
 }
 
 .bCentroCasaFondo,.bCentroMenosFondo,.bCentroMasFondo{
@@ -559,8 +579,8 @@ body{
 
 .bCentroCasa{
     position: absolute;
-    top: 12em;
-    left: 22em;
+    top: 2em;
+    left: 4em;
 }
 
 
@@ -575,26 +595,26 @@ body{
 
 .bCentroMenosFondo{
     position: absolute;
-    top: 10em;
-    left: 18em;
+    top: 0em;
+    left: 0em;
 }
 .bCentroMenos{
     position: absolute;
-    top: 3.55em;
-    left: 7.3em;
+    top: -0.5em;
+    left: 0.1em;
     color: rgb(95, 95, 95);
     text-align: center;
     font-size: 40px;
 }
 .bCentroMasFondo{
     position: absolute;
-    top: 10em;
-    left: 23.4em;
+    top: 0em;
+    left: 5.4em;
 }
 .bCentroMas{
     position: absolute;
-    top: 6.5em;
-    left: 15.7em;
+    top: -0.2em;
+    left: 3.7em;
     color: rgb(95, 95, 95);
     font: italic small-caps bold 24px/30px Georgia, serif;
     text-align: center;
@@ -611,14 +631,14 @@ body{
     height: 3em;
     width: 3em;
     position: absolute;
-    top: 3.2em;
-    left: 10em;
+    top: -1.5em;
+    left: 1em;
     opacity: 0.5;
 }
 .luz{
     position: absolute;
-    top: 15em;
-    left: 19.5em;
+    top: 5em;
+    left: 1.5em;
 }
 #luz1,.luz2,.luz3,.luz4{
     height: 0.5em;

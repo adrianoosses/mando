@@ -1,4 +1,5 @@
 # Mando de estilo GameCube para videoconsola Nintendo Switch
+https://adrianoosses.github.io/mando/.
 Abrir index.html en el navegador. 
 <br>A continuación se indican mediante circunferencias rojas y números identificativos los botones con los que se puede interactuar:
 <br>

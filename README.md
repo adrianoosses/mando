@@ -8,11 +8,11 @@ Mando inalámbrico para videoconsola la Nintendo Switch de estilo GameCube.
 5. [ AUTOR ](#author) :video_game:
 6. [ FUENTES ](#fonts) :video_game:
 
-<a name="run"><\a>
+<a name="run"></a>
  - Opción 1: GitHub Pages: https://adrianoosses.github.io/mando/ <br>
  - Opción 2: Descargar el proyecto y abrir index.html en el navegador. 
  
-<a name="inst"><\a>
+<a name="inst"></a>
 <br>A continuación se indican mediante circunferencias rojas y números identificativos los botones con los que se puede interactuar:
 <br>
 ![Mando explicativo](images/mando-explicativo.jpg)

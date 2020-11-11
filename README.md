@@ -19,7 +19,7 @@ Mando inalámbrico para videoconsola la Nintendo Switch de estilo GameCube.
 
 <a name="test"></a>
 ## INSTRUCCIONES
-<br>A continuación se indican mediante circunferencias rojas y números identificativos los botones con los que se puede interactuar:
+A continuación se indican mediante circunferencias rojas y números identificativos los botones con los que se puede interactuar:
 <br>
 ![Mando explicativo](images/mando-explicativo.jpg)
 
@@ -33,5 +33,5 @@ Mando inalámbrico para videoconsola la Nintendo Switch de estilo GameCube.
 
 <a name="fonts"></a>
 ## FUENTES
-<br>[Logotipo](https://www.pikpng.com/pngvi/iJJTomm_nintendo-switch-console-microsoft-etherborn-altered-nintendo-switch-logo-white-clipart/)
+[Logotipo](https://www.pikpng.com/pngvi/iJJTomm_nintendo-switch-console-microsoft-etherborn-altered-nintendo-switch-logo-white-clipart/)
 <br>[Inspiracion](https://www.amazon.es/Inal%C3%A1mbrico-Gamecube-Morado-Nintendo-Switch/dp/B07GXLBCC3)

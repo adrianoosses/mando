@@ -33,6 +33,5 @@ Mando inalámbrico para videoconsola la Nintendo Switch de estilo GameCube.
 
 <a name="fonts"></a>
 ## FUENTES
-<br>Fuentes:
-<br>[Logotipo]:https://www.pikpng.com/pngvi/iJJTomm_nintendo-switch-console-microsoft-etherborn-altered-nintendo-switch-logo-white-clipart/
-<br>[Inspiracion]:https://www.amazon.es/Inal%C3%A1mbrico-Gamecube-Morado-Nintendo-Switch/dp/B07GXLBCC3
+<br>[Logotipo](https://www.pikpng.com/pngvi/iJJTomm_nintendo-switch-console-microsoft-etherborn-altered-nintendo-switch-logo-white-clipart/)
+<br>[Inspiracion](https://www.amazon.es/Inal%C3%A1mbrico-Gamecube-Morado-Nintendo-Switch/dp/B07GXLBCC3)
